@@ -39,3 +39,9 @@ window.addEventListener('scroll', () => {
       footerSlider.style.transform = 'translateY(0)';
   }
 });
+
+
+
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
