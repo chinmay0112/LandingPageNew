@@ -6,10 +6,7 @@
 
 *{
     margin: 0;
-    padding: 0;
- 
-    
-    
+    padding: 0; 
 }
 
 html,body{
@@ -31,6 +28,7 @@ body{
     padding: 0.3rem 0rem;
     font-family: 'Roboto', sans-serif;
 }
+
 
 .top-bar-1 p{
     color: #000;
@@ -115,12 +113,14 @@ width: 20px;
     cursor: pointer;
 }
 
+
 .top-bar-2{
     display: flex;
     justify-content: space-evenly;
     padding-top: 0.65rem;
     
 }
+
 
 .img2{
     margin-top: 0.7rem;
@@ -137,6 +137,11 @@ width: 20px;
    
 }
 
+.hero-main-content button {
+    white-space: nowrap;
+}
+
+
 .hero-txt {
     position: relative;
     top: 20px;
@@ -148,6 +153,7 @@ width: 20px;
     z-index: 2;
     font-family: 'Poppins', sans-serif;
 }
+
 
 .hero-txt a {
     position: relative;
@@ -248,9 +254,7 @@ color: #fff;
         color: #fff;
         font-family: 'Poppins', sans-serif;
     font-weight: 400;
-
-        
-    }
+ }
 
 
     .heading{
@@ -295,7 +299,7 @@ color: #fff;
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
      width: 15%;
      height: 220px;
-     
+    
      border-radius: 10px;
      transition: transform 0.3s ease;
      
@@ -577,6 +581,7 @@ color: #fff;
         font-size: 2.5rem;
         font-weight: 700;
         font-family: 'Poppins', sans-serif;
+        color: #000;
     
     }
     

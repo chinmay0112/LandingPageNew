@@ -45,3 +45,7 @@ window.addEventListener('scroll', () => {
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    AOS.init();
+});
